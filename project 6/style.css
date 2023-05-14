@@ -36,6 +36,7 @@ a{
      position: sticky;
      top: 0;
      z-index: 100;
+     padding: 0px 20px;
   }
   nav{
     display: flex;
@@ -246,7 +247,7 @@ margin-bottom: 10px;
 .upper_footer{
   display: flex;
   justify-content: center;
-  gap: 200px;
+  gap: 150px;
   margin-top: 150px;
   background-color: 
   #1B0058;
@@ -264,7 +265,9 @@ margin-bottom: 20px;
   font-weight: 500;
 font-size: 13px;
 }
-
+.menu{
+  display: none;
+}
 .lower_footer{
   display: flex;
   align-items: center;
@@ -276,4 +279,22 @@ font-size: 13px;
   #270082;
   font-weight: 500;
 font-size: 14px;
+}
+@media(max-width:768px){
+  .container ul li{
+    display: none;
+  }
+  .menu{
+    display: contents;
+    font-size: 25px;
+  }
+  .upper_footer{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+
+  }
+  .upper_footer ul{
+    min-width:200px ;
+  }
 }
