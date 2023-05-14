@@ -1,0 +1,279 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+  :root{
+    --purple500: #281154;
+    --purple300: #270082;
+    --purple500: #1b0058;
+    --body:     #f9f6ff;
+    --max-width:1200px;
+  }
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  html,body{
+    font-family: "Roboto",sans-serif;
+    font-weight: 300;
+    line-height: 1.4;  
+    scroll-behavior: smooth;    
+  }
+ ul{
+    list-style: none;
+ }
+a{
+    text-decoration: none;
+   color: white;
+} 
+  .container{
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  header{
+    background-color: var(--purple300);
+    color: white;
+     box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
+     position: sticky;
+     top: 0;
+     z-index: 100;
+  }
+  nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+   
+   
+  }
+  .logo{
+    font-size: 32px;
+    font-weight: 600;
+  }
+  nav ul{
+    display: flex;
+    gap: 20px;
+  }
+  nav ul li{
+    border-bottom: 2px solid transparent;
+    transition: 0.2s ease-in;
+  }
+  nav ul li:hover{
+    border-bottom: 2px solid white;
+    transition: 0.2s ease-in;
+  }
+
+/* ---------Hero Section------------------ */
+
+.hero_section{
+  background-image: url(images/hero_image.png);
+  height: 100vh; 
+   position: relative;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+  display: grid;
+  place-items: center;
+  margin: 0 auto;
+}
+.hero_content{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.hero_content h1{
+  font-size: 72px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.hero_content h3{
+  font-weight: 400;
+  font-size: 24px;
+  margin-bottom: 40px;
+}
+.hero_content p{
+  width: 841px;
+   font-weight: 400;
+  font-size: 18px;
+  line-height: 29px;
+}
+.music_section{
+  background-color: #281154;;
+ color: white;
+}
+.music_content{
+  display: grid;
+  place-items: center;
+}
+.music_content h1{
+  margin-top: 40px;
+  font-size: 36px;
+}
+.music_content  span{
+  font-size: 40px;
+}
+.music_content h3{
+  font-size: 24px;
+  font-weight: 700;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+.music_content p{
+  font-weight: 700;
+font-size: 18px;
+line-height: 29px;
+width: 970px;
+text-align: center;
+margin-bottom: 20px;
+}
+
+button{
+  border-style: none;
+  background-color: #DC0000;
+  padding: 15px 20px;
+  color: white;
+  margin-bottom: 30px;
+  transition: 0.2s ease-in-out;
+}
+.music_content .small_p{
+  width: 435px;
+  font-size: 14px;
+  font-weight: 300;
+}
+.iphone_ipad_img{
+  margin-top: -400px;
+  position: relative;
+  top: 400px;
+}
+.about_section{
+ margin-top: 450px;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ flex-direction: column;
+ text-align: center;
+}
+.about_section h2{
+  margin-bottom: 30px;
+height: 29px;;
+font-weight: 600;
+font-size: 24px;
+}
+
+.about_section p{
+  font-weight: 300;
+font-size: 18px;
+line-height: 32px;
+margin-bottom: 30px;
+}
+.about_section .btn{
+background-color: 
+#37008E;
+margin-bottom: 40px;
+color: #f9f6ff;
+transition: 0.2s ease-in-out;
+}
+button:hover{
+  transition: 0.2s ease-in-out;
+  opacity: 0.8;
+}
+.text_container{
+  background-image: url(images/video.png);
+  max-width: 100%;
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-top: 40px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.text_container h2{
+  font-weight: 700;
+font-size: 24px;
+line-height: 29px;
+}
+.text_container p{
+  font-weight: 700;
+font-size: 14px;
+line-height: 18px;
+width: 937px;
+text-align: center;
+margin-top: 40px;
+}
+
+.gift_card{
+  display: flex;
+  gap: 40px;
+  margin-top: 150px;
+  align-items: center;
+  justify-content: center;
+}
+.giftcard_content{
+  display: flex;
+  flex-direction: column;
+  justify-content:center ;
+}
+.giftcard_content h2{
+  margin-bottom: 20px;
+  font-weight: 700;
+font-size: 24px;
+}
+.giftcard_content .large_p{
+  font-weight: 400;
+font-size: 14px;
+line-height: 29px;
+margin-bottom: 15px;
+}
+.giftcard_content .small_p{
+  font-weight: 400;
+font-size: 14px;
+line-height: 29px;
+margin-bottom: 10px;
+}
+.giftcard_content .btn{
+  margin-top: 20px;
+  align-self: self-start;
+  background-color:
+  #37008E;
+  padding: 10px 15px;
+  width: 120px;
+}
+.upper_footer{
+  display: flex;
+  justify-content: center;
+  gap: 200px;
+  margin-top: 150px;
+  background-color: 
+  #1B0058;
+  color: white;
+  padding: 50px;
+}
+.upper_footer h3{
+  font-weight: 600;
+font-size: 18px;
+line-height: 29px;
+border-bottom: 2px solid white;
+margin-bottom: 20px;
+}
+.upper_footer ul li{
+  font-weight: 500;
+font-size: 13px;
+}
+
+.lower_footer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 15px;
+  color: white
+  ;
+  background-color: 
+  #270082;
+  font-weight: 500;
+font-size: 14px;
+}

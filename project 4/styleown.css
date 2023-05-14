@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+.container{
+    background-image: url(images/developer.png);
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    
+    
+}
+.small_text{
+    font-size: 30px;
+}
+.text_container h1{
+    font-size: 40px;
+    letter-spacing: 5px;
+    color: rgb(228, 228, 228);
+    padding: 5px;
+}
+.text_container{
+    text-align: center;
+    padding: 20px;
+}
+.black_box{
+    width: 100%;
+    padding: 50px;
+    text-align: center;
+    color: aliceblue;
+    background-color: #161619;
+    
+}
+.black_box h1{
+    font-size: 50px;
+    
+}
+.you_text{
+    font-size: 70px;
+}
+.work{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+    gap: 80px;
+    
+}
+.grid{
+    max-width: 320px;
+    height: 450px;
+    margin-bottom: 100px;
+    box-shadow:3px 5px 5px rgba(1,1,1,0.2);
+    border-radius: 20px;
+    transition: 0.32s ease-in-out;
+}
+.grid:hover{
+    transform: scale(1.04);
+    box-shadow:3px 5px 5px rgba(1,1,1,0.4);
+    transition: 0.32s ease-in-out;
+}
+.card_container{
+    text-align: left;
+    padding: 30px;
+}
+.card_container h2{
+    margin-bottom: 30px;
+}
+.yeno{
+    display: flex;
+    
+}
+
+.contact h1{
+    font-size: 64px;
+    font-weight: 400;
+    line-height: 75px;
+}
+
+.about h1{
+    font-size: 64px;
+    font-weight: 400;
+    line-height: 75px;
+}
+.contact,.about{
+    min-height: 200px;
+    padding: 32px;
+    text-align: left;
+    color: white;
+}
+.contact{
+    background-color: #515603;
+    width: 720px;
+    height: 278px;
+    
+}
+.about{
+    background-color: #722300;
+    
+ 
+}
+.contact p{
+    margin-top: 20px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    
+}
+.about p{
+    margin-top: 20px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+}
+footer{
+  background-color: black;
+  color: white;
+  text-align: center;
+  
+}
+.footer_text{
+    font-weight: 300;
+    padding: 20px;
+}
