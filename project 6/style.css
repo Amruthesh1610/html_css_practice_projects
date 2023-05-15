@@ -12,11 +12,15 @@
     padding: 0;
     box-sizing: border-box;
   }
-  html,body{
+  html{
+    font-size: 62.5%;
+  }
+body{
     font-family: "Roboto",sans-serif;
     font-weight: 300;
     line-height: 1.4;  
-    scroll-behavior: smooth;    
+    scroll-behavior: smooth;  
+    font-size: 1.6rem;  
   }
  ul{
     list-style: none;
@@ -47,7 +51,7 @@ a{
    
   }
   .logo{
-    font-size: 32px;
+    font-size: 3.2rem;
     font-weight: 600;
   }
   nav ul{
@@ -84,19 +88,19 @@ a{
   text-align: center;
 }
 .hero_content h1{
-  font-size: 72px;
+  font-size: 7.2rem;
   font-weight: 700;
   margin-bottom: 20px;
 }
 .hero_content h3{
-  font-weight: 400;
-  font-size: 24px;
+  font-weight: 40rem;
+    font-size: 24px;
   margin-bottom: 40px;
 }
 .hero_content p{
   width: 841px;
    font-weight: 400;
-  font-size: 18px;
+  font-size: 1.8rem;
   line-height: 29px;
 }
 .music_section{
@@ -109,20 +113,20 @@ a{
 }
 .music_content h1{
   margin-top: 40px;
-  font-size: 36px;
+  font-size: 3.6rem;
 }
 .music_content  span{
   font-size: 40px;
 }
 .music_content h3{
-  font-size: 24px;
+  font-size: 2.4rem;
   font-weight: 700;
   margin-top: 10px;
   margin-bottom: 30px;
 }
 .music_content p{
   font-weight: 700;
-font-size: 18px;
+font-size: 1.8rem;
 line-height: 29px;
 width: 970px;
 text-align: center;
@@ -139,7 +143,7 @@ button{
 }
 .music_content .small_p{
   width: 435px;
-  font-size: 14px;
+  font-size: 1.4rem;
   font-weight: 300;
 }
 .iphone_ipad_img{
@@ -159,12 +163,12 @@ button{
   margin-bottom: 30px;
 height: 29px;;
 font-weight: 600;
-font-size: 24px;
+font-size: 2.4rem;
 }
 
 .about_section p{
   font-weight: 300;
-font-size: 18px;
+font-size: 1.8rem;
 line-height: 32px;
 margin-bottom: 30px;
 }
@@ -195,12 +199,12 @@ button:hover{
 }
 .text_container h2{
   font-weight: 700;
-font-size: 24px;
+font-size: 2.4rem;
 line-height: 29px;
 }
 .text_container p{
   font-weight: 700;
-font-size: 14px;
+font-size: 1.4rem;
 line-height: 18px;
 width: 937px;
 text-align: center;
@@ -226,13 +230,13 @@ font-size: 24px;
 }
 .giftcard_content .large_p{
   font-weight: 400;
-font-size: 14px;
+font-size: 1.4rem;
 line-height: 29px;
 margin-bottom: 15px;
 }
 .giftcard_content .small_p{
   font-weight: 400;
-font-size: 14px;
+font-size: 1.4rem;
 line-height: 29px;
 margin-bottom: 10px;
 }
@@ -256,14 +260,14 @@ margin-bottom: 10px;
 }
 .upper_footer h3{
   font-weight: 600;
-font-size: 18px;
+font-size: 1.8rem;
 line-height: 29px;
 border-bottom: 2px solid white;
 margin-bottom: 20px;
 }
 .upper_footer ul li{
   font-weight: 500;
-font-size: 13px;
+font-size: 1.3rem;
 }
 .menu{
   display: none;
@@ -278,15 +282,18 @@ font-size: 13px;
   background-color: 
   #270082;
   font-weight: 500;
-font-size: 14px;
+font-size: 1.4rem;
 }
 @media(max-width:768px){
+  html{
+    font-size: 40%;
+  }
   .container ul li{
     display: none;
   }
   .menu{
     display: contents;
-    font-size: 25px;
+    font-size: 2.5rem;
   }
   .upper_footer{
     display: flex;
